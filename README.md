@@ -61,7 +61,6 @@ Bringing AI into line-of-business software — looking at where LLMs can genuine
   <img src="https://github-readme-stats.vercel.app/api?username=shousha401&show_icons=true&theme=tokyonight&hide_border=true" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shousha401&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
-
 ---
 
 ### 📫 Reach me
