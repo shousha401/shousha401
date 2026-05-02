@@ -54,14 +54,14 @@
 Bringing AI into line-of-business software — looking at where LLMs can genuinely help in operations, inventory, and customer-facing tools, and where they can't.
 
 ---
-
 ### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shousha401&show_icons=true&theme=tokyonight&hide_border=true" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shousha401&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
----
+  
+
 
 ### 📫 Reach me
 
