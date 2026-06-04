@@ -1,36 +1,63 @@
 <div align="center">
 
 <a href="https://github.com/shousha401">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Eslam%20Shousha&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Fresno%2C%20CA&descAlignY=58&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Eslam%20Shousha&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Open%20to%20Opportunities&descAlignY=58&descSize=18" />
 </a>
 
 <a href="https://github.com/shousha401">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=I+build+internal+tools+%26+AI-integrated+apps;Real+software+for+real+businesses;Node.js+%C2%B7+React+%C2%B7+Python+%C2%B7+SQL;Always+exploring+where+AI+adds+value" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%C2%B7+Node.js+%C2%B7+React+%C2%B7+SQL;I+ship+production+software%2C+not+side+projects;Apps+that+run+a+business+every+day;Open+to+new+opportunities" />
 </a>
+
+<br/><br/>
+
+<!-- 💼 AVAILABILITY -->
+**💼 Open to Full-Stack & Software Engineer roles** — remote, hybrid, or relocating **for the right team.**  
+📍 Based in Fresno, CA
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=shousha401&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-<img src="https://img.shields.io/github/followers/shousha401?label=Followers&style=flat&color=0e75b6" alt="followers" />
+<!-- ⚠️ Replace YOUR-HANDLE with your real LinkedIn URL before publishing -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
+[![Email](https://img.shields.io/badge/Email-Reach_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
+<!-- 📄 When your résumé is ready, uncomment this and point it at a PDF (you can drop the PDF in this repo):
+[![Résumé](https://img.shields.io/badge/Résumé-Download-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](LINK_TO_YOUR_RESUME)
+-->
 
 </div>
 
 <br/>
 
-## 🛠️ What I build
+## 👋 The 10-second version
+
+> I'm a full-stack developer who ships **production software that runs a business every day.**
+> Self-taught and currently working in IT, I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator.
+>
+> **Node.js · React · React Native · SQL · Python** — and I bring AI in where it actually earns its place.
+
+<div align="center">
+
+![Production](https://img.shields.io/badge/Apps_in_Production-6-0e75b6?style=for-the-badge)
+![SaaS](https://img.shields.io/badge/Replaced-Paid_SaaS-2ea44f?style=for-the-badge)
+![Daily](https://img.shields.io/badge/Used-Daily-blueviolet?style=for-the-badge)
+![Bilingual](https://img.shields.io/badge/Bilingual-EN%2FES-orange?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Integrated-191919?style=for-the-badge)
+
+</div>
+
+<br/>
+
+## 🛠️ Featured Work
 
 > Production software running real operations — not side projects gathering dust.
-> I work in IT for a wholesale food distributor and build the line-of-business tools we'd otherwise pay for.
-
-### Flagship apps
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🥩 ShoushaBox
-**Production board for the cut floor.**  
-Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — replaced a paper-based workflow. Bilingual EN/ES with Sato label printing.
+<!-- 📸 Recruiter magnet: drop a screenshot/GIF of the TV board here -->
+**Replaced a paper workflow that ran the cut floor.**  
+Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
 
 `Node.js` `React` `Vite` `SQLite` `MSSQL`
 
@@ -39,7 +66,7 @@ Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end t
 
 ### 🖥️ Internal IT Platform
 **One app that replaced a paid SaaS contract — and kept growing.**  
-Started as a printer/toner SNMP monitor (45 printers, email alerts, per-device dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, asset inventory with QR codes, and usage analytics.
+Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, QR asset inventory, and usage analytics.
 
 `Node.js` `Express` `SQLite` `SNMP` `OpenAI`
 
@@ -49,8 +76,9 @@ Started as a printer/toner SNMP monitor (45 printers, email alerts, per-device d
 <td width="50%" valign="top">
 
 ### 📊 Production Scheduling Report
-**Early-warning planner for the production floor.**  
-Reads live inventory + orders to tell the team *what to make and how much*, days ahead. Factors FIFO, partial lots, shelf-life, and order-risk to flag shortfalls **before** they happen.
+<!-- 📸 A shot of a flagged shortfall sells this instantly -->
+**Stops shortfalls before they happen.**  
+Reads live inventory + orders to tell the team *what to make and how much*, days ahead — factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
 
 `Node.js` `React` `SQLite`
 
@@ -58,8 +86,8 @@ Reads live inventory + orders to tell the team *what to make and how much*, days
 <td width="50%" valign="top">
 
 ### 🚚 Delivery Verification System
-**Tablet app for drivers (Android via Intune).** *(in development)*  
-Barcode proof-of-delivery, offline-first sync, route-conflict prevention, a manager dashboard, and a 4 AM ERP sync.
+**Mobile proof-of-delivery for drivers (Android via Intune).** *(in development)*  
+Barcode capture, offline-first sync, route-conflict prevention, a manager dashboard, and an automated 4 AM ERP sync.
 
 `React Native (Expo)` `Node.js` `PostgreSQL` `Azure`
 
@@ -74,7 +102,7 @@ Barcode proof-of-delivery, offline-first sync, route-conflict prevention, a mana
 <td width="33%" valign="top">
 
 ### ⚗️ Formulation Batcher
-Recipe/blend batching tool — scales formulations and computes per-ingredient quantities for each production batch.
+Scales recipes/blends and computes per-ingredient quantities for each production batch.
 
 `Node.js` `Express`
 
@@ -82,7 +110,7 @@ Recipe/blend batching tool — scales formulations and computes per-ingredient q
 <td width="33%" valign="top">
 
 ### 💲 Product Value Tool
-Instant last-price lookup across two pricing tiers, so sales & purchasing always pull the most recent number.
+Instant last-price lookup across two pricing tiers, so sales & purchasing always pull the latest number.
 
 `Node.js` `Express` `SQLite`
 
@@ -90,7 +118,7 @@ Instant last-price lookup across two pricing tiers, so sales & purchasing always
 <td width="33%" valign="top">
 
 ### 🌐 Custom WordPress Theme
-Brand redesign built from scratch — sticky nav, video hero, hover cards, fully responsive to designer specs.
+Brand redesign built from scratch — sticky nav, video hero, hover cards, fully responsive to spec.
 
 `PHP` `WordPress` `JS` `CSS`
 
@@ -137,31 +165,31 @@ Brand redesign built from scratch — sticky nav, video hero, hover cards, fully
 
 <br/>
 
-## 🐍 Contribution Graph
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/shousha401/shousha401/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</div>
-
-<br/>
-
 ## 🚀 Currently Exploring
 
-Bringing AI into line-of-business software — looking at where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they can't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
+Bringing AI into line-of-business software — where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
 
 The interesting question isn't *"can we add AI to this?"* — it's *"should we?"*
 
 <br/>
 
-## 📫 Reach Me
+## 📫 Let's talk
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shousha401)
+I'm open to full-stack and software engineering roles. The fastest way to reach me:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
+[![Email](https://img.shields.io/badge/Email-Shousha401@hotmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
 
 </div>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/shousha401/shousha401/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" />
+</div>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" />
 </div>
