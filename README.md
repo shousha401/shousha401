@@ -17,46 +17,80 @@
 
 <br/>
 
-## 🛠️ What I'm working on
+## 🛠️ What I build
 
 > Production software running real operations — not side projects gathering dust.
+> I work in IT for a wholesale food distributor and build the line-of-business tools we'd otherwise pay for.
+
+### Flagship apps
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🥇 ShoushaBox
-**Production board for a wholesale food distributor.**  
-Pulls live orders from the ERP, assigns work to cutters, tracks start/end times on warehouse TVs, and runs the daily cut floor.
+### 🥩 ShoushaBox
+**Production board for the cut floor.**  
+Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — replaced a paper-based workflow. Bilingual EN/ES with Sato label printing.
 
-`Node.js` `React` `SQLite` `MSSQL`
+`Node.js` `React` `Vite` `SQLite` `MSSQL`
 
 </td>
 <td width="50%" valign="top">
 
-### 🖨️ Printer Toner Monitor
-**Replaced a paid SaaS contract.**  
-Internal monitor for 45 printers with email alerts, per-printer dashboards, and direct webpage access.
+### 🖥️ Internal IT Platform
+**One app that replaced a paid SaaS contract — and kept growing.**  
+Started as a printer/toner SNMP monitor (45 printers, email alerts, per-device dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, asset inventory with QR codes, and usage analytics.
 
-`Node.js` `Express` `SQLite`
+`Node.js` `Express` `SQLite` `SNMP` `OpenAI`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🚚 Delivery Verification System
-**Tablet app for drivers (Android via Intune).**  
-Offline-first sync, route conflict prevention, manager dashboard, and 4 AM ERP sync.
+### 📊 Production Scheduling Report
+**Early-warning planner for the production floor.**  
+Reads live inventory + orders to tell the team *what to make and how much*, days ahead. Factors FIFO, partial lots, shelf-life, and order-risk to flag shortfalls **before** they happen.
 
-`React Native (Expo)` `Node.js` `PostgreSQL` `Azure`
+`Node.js` `React` `SQLite`
 
 </td>
 <td width="50%" valign="top">
 
+### 🚚 Delivery Verification System
+**Tablet app for drivers (Android via Intune).** *(in development)*  
+Barcode proof-of-delivery, offline-first sync, route-conflict prevention, a manager dashboard, and a 4 AM ERP sync.
+
+`React Native (Expo)` `Node.js` `PostgreSQL` `Azure`
+
+</td>
+</tr>
+</table>
+
+### More tools I've shipped
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚗️ Formulation Batcher
+Recipe/blend batching tool — scales formulations and computes per-ingredient quantities for each production batch.
+
+`Node.js` `Express`
+
+</td>
+<td width="33%" valign="top">
+
+### 💲 Product Value Tool
+Instant last-price lookup across two pricing tiers, so sales & purchasing always pull the most recent number.
+
+`Node.js` `Express` `SQLite`
+
+</td>
+<td width="33%" valign="top">
+
 ### 🌐 Custom WordPress Theme
-**Built from scratch for a brand redesign.**  
-Sticky nav, video hero, hover cards, and full responsive layout following designer specs.
+Brand redesign built from scratch — sticky nav, video hero, hover cards, fully responsive to designer specs.
 
 `PHP` `WordPress` `JS` `CSS`
 
@@ -93,6 +127,7 @@ Sticky nav, video hero, hover cards, and full responsive layout following design
 #### Infra & DevOps
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -112,9 +147,9 @@ Sticky nav, video hero, hover cards, and full responsive layout following design
 
 ## 🚀 Currently Exploring
 
-Bringing AI into line-of-business software — looking at where LLMs can genuinely help in operations, inventory, and customer-facing tools, **and where they can't.**
+Bringing AI into line-of-business software — looking at where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they can't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
 
-The interesting question isn't "can we add AI to this?" — it's "should we?"
+The interesting question isn't *"can we add AI to this?"* — it's *"should we?"*
 
 <br/>
 
