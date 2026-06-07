@@ -11,7 +11,7 @@
 <br/><br/>
 
 <!-- 💼 AVAILABILITY -->
-**💼 Open to Full-Stack & Software Engineer roles** — remote, hybrid, or relocating **for the right team.**  
+**💼 Open to Full-Stack & Software Engineer roles**  remote, hybrid, or relocating **for the right team.**  
 📍 Based in Fresno, CA
 
 <br/>
@@ -30,9 +30,9 @@
 ## 👋 The 10-second version
 
 > I'm a full-stack developer who ships **production software that runs a business every day.**
-> Self-taught and currently working in IT, I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator.
+> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor  from a warehouse production board to an AI powered document translator.
 >
-> **Node.js · React · React Native · SQL · Python** — and I bring AI in where it actually earns its place.
+> **Node.js · React · React Native · SQL · Python**  and I bring AI in where it actually earns its place.
 
 <div align="center">
 
@@ -48,7 +48,7 @@
 
 ## 🛠️ Featured Work
 
-> Production software running real operations — not side projects gathering dust.
+> Production software running real operations  not side projects gathering dust.
 
 <table>
 <tr>
@@ -57,7 +57,7 @@
 ### 🥩 ShoushaBox
 <!-- 📸 Recruiter magnet: drop a screenshot/GIF of the TV board here -->
 **Replaced a paper workflow that ran the cut floor.**  
-Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
+Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
 
 `Node.js` `React` `Vite` `SQLite` `MSSQL`
 
@@ -65,7 +65,7 @@ Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end t
 <td width="50%" valign="top">
 
 ### 🖥️ Internal IT Platform
-**One app that replaced a paid SaaS contract — and kept growing.**  
+**One app that replaced a paid SaaS contract  and kept growing.**  
 Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, QR asset inventory, and usage analytics.
 
 `Node.js` `Express` `SQLite` `SNMP` `OpenAI`
@@ -78,7 +78,7 @@ Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) an
 ### 📊 Production Scheduling Report
 <!-- 📸 A shot of a flagged shortfall sells this instantly -->
 **Stops shortfalls before they happen.**  
-Reads live inventory + orders to tell the team *what to make and how much*, days ahead — factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
+Reads live inventory + orders to tell the team *what to make and how much*, days ahead factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
 
 `Node.js` `React` `SQLite`
 
@@ -167,7 +167,7 @@ Brand redesign built from scratch — sticky nav, video hero, hover cards, fully
 
 ## 🚀 Currently Exploring
 
-Bringing AI into line-of-business software — where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
+Bringing AI into line-of-business software where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
 
 The interesting question isn't *"can we add AI to this?"* — it's *"should we?"*
 
