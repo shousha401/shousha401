@@ -15,12 +15,8 @@
 
 <br/>
 
-<!-- ⚠️ Replace YOUR-HANDLE with your real LinkedIn URL before publishing -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eslam-shousha-9b134615a)
 [![Email](https://img.shields.io/badge/Email-Reach_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
-<!-- 📄 When your résumé is ready, uncomment this and point it at a PDF:
-[![Résumé](https://img.shields.io/badge/Résumé-Download-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](LINK_TO_YOUR_RESUME)
--->
 
 </div>
 
@@ -54,7 +50,6 @@
 <td width="50%" valign="top">
 
 ### 🥩 ShoushaBox
-<!-- 📸 Recruiter magnet: drop a screenshot/GIF of the TV board here -->
 **Replaced a paper workflow that ran the cut floor.**  
 Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
 
@@ -75,7 +70,6 @@ Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) an
 <td width="50%" valign="top">
 
 ### 📊 Production Scheduling Report
-<!-- 📸 A shot of a flagged shortfall sells this instantly -->
 **Stops shortfalls before they happen.**  
 Reads live inventory + orders to tell the team *what to make and how much*, days ahead — factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
 
@@ -186,7 +180,7 @@ The interesting question isn't *"can we add AI to this?"* — it's *"should we?"
 
 I'm open to full-stack and software engineering roles. The fastest way to reach me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eslam-shousha-9b134615a)
 [![Email](https://img.shields.io/badge/Email-Shousha401@hotmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
 
 </div>
