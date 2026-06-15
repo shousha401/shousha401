@@ -1,3 +1,46 @@
+What's broken in the current README
+Malformed footer — you have a duplicate waving-capsule <img> and a stray </div> at the very bottom (the last 3 lines are orphaned outside any container). This can render as a broken/leftover image.
+YOUR-HANDLE placeholder — your LinkedIn badge links to linkedin.com/in/YOUR-HANDLE in two places. That's a dead link on a recruiter-facing page — the one thing you don't want broken.
+Missing em-dashes — a bunch of spots lost their — and now have awkward double-spaces ("the right team", "food distributor from", "real operations not side projects", etc.). Reads like a copy-paste glitch.
+The 3D part
+The standard way to make a GitHub profile README "3D" is the github-profile-3d-contrib Action — it renders your contribution calendar as an isometric 3D scene (the same vibe as the snake you already have). You already run a GitHub Action for the snake animation, so this fits right in.
+
+It needs two things: a workflow file + an image reference in the README.
+
+.github/workflows/profile-3d.yml (in your shousha401/shousha401 repo):
+
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-profile-3d-contrib
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name  github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "generate 3d contrib" || echo "no changes"
+          git push
+This writes SVGs into a profile-3d-contrib/ folder on main. After it runs once, you'll have files like profile-night-rainbow.svg, profile-gitblock.svg, etc.
+
+Fixed README
+Here's the full corrected version — broken footer fixed, em-dashes restored, and a new 3D contributions section added. The only thing I couldn't fix is your real LinkedIn URL — I left a clearly-marked YOUR-HANDLE in two spots. Replace both before publishing (search for YOUR-HANDLE).
+
 <div align="center">
 
 <a href="https://github.com/shousha401">
@@ -10,8 +53,7 @@
 
 <br/><br/>
 
-<!-- 💼 AVAILABILITY -->
-**💼 Open to Full-Stack & Software Engineer roles**  remote, hybrid, or relocating **for the right team.**  
+**💼 Open to Full-Stack & Software Engineer roles** — remote, hybrid, or relocating **for the right team.**  
 📍 Based in Fresno, CA
 
 <br/>
@@ -19,7 +61,7 @@
 <!-- ⚠️ Replace YOUR-HANDLE with your real LinkedIn URL before publishing -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
 [![Email](https://img.shields.io/badge/Email-Reach_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shousha401@hotmail.com)
-<!-- 📄 When your résumé is ready, uncomment this and point it at a PDF (you can drop the PDF in this repo):
+<!-- 📄 When your résumé is ready, uncomment this and point it at a PDF:
 [![Résumé](https://img.shields.io/badge/Résumé-Download-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](LINK_TO_YOUR_RESUME)
 -->
 
@@ -30,9 +72,9 @@
 ## 👋 The 10-second version
 
 > I'm a full-stack developer who ships **production software that runs a business every day.**
-> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor  from a warehouse production board to an AI powered document translator.
+> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator.
 >
-> **Node.js · React · React Native · SQL · Python**  and I bring AI in where it actually earns its place.
+> **Node.js · React · React Native · SQL · Python** — and I bring AI in where it actually earns its place.
 
 <div align="center">
 
@@ -48,7 +90,7 @@
 
 ## 🛠️ Featured Work
 
-> Production software running real operations  not side projects gathering dust.
+> Production software running real operations — not side projects gathering dust.
 
 <table>
 <tr>
@@ -57,7 +99,7 @@
 ### 🥩 ShoushaBox
 <!-- 📸 Recruiter magnet: drop a screenshot/GIF of the TV board here -->
 **Replaced a paper workflow that ran the cut floor.**  
-Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
+Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
 
 `Node.js` `React` `Vite` `SQLite` `MSSQL`
 
@@ -65,7 +107,7 @@ Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end t
 <td width="50%" valign="top">
 
 ### 🖥️ Internal IT Platform
-**One app that replaced a paid SaaS contract  and kept growing.**  
+**One app that replaced a paid SaaS contract — and kept growing.**  
 Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, QR asset inventory, and usage analytics.
 
 `Node.js` `Express` `SQLite` `SNMP` `OpenAI`
@@ -78,7 +120,7 @@ Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) an
 ### 📊 Production Scheduling Report
 <!-- 📸 A shot of a flagged shortfall sells this instantly -->
 **Stops shortfalls before they happen.**  
-Reads live inventory + orders to tell the team *what to make and how much*, days ahead factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
+Reads live inventory + orders to tell the team *what to make and how much*, days ahead — factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
 
 `Node.js` `React` `SQLite`
 
@@ -165,9 +207,17 @@ Brand redesign built from scratch — sticky nav, video hero, hover cards, fully
 
 <br/>
 
+## 🧊 My contributions in 3D
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+</div>
+
+<br/>
+
 ## 🚀 Currently Exploring
 
-Bringing AI into line-of-business software where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
+Bringing AI into line-of-business software — where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
 
 The interesting question isn't *"can we add AI to this?"* — it's *"should we?"*
 
@@ -189,7 +239,5 @@ I'm open to full-stack and software engineering roles. The fastest way to reach 
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" />
-</div>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" />
 </div>
