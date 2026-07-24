@@ -158,7 +158,7 @@ Brand redesign built from scratch — sticky nav, video hero, hover cards, fully
 
 <br/>
 
-## 🧊 My contributions in 3D
+## 🧊 Contributions
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
