@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-**💼 Open to Full-Stack & Software Engineer roles** — remote, hybrid, or relocating **for the right team.**  
+**💼 Open to Full-Stack & Software Engineer roles** — remote. 
 📍 Based in Fresno, CA
 
 <br/>
