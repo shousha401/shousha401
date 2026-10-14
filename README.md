@@ -99,11 +99,31 @@ Barcode capture, offline-first sync, route-conflict prevention, a manager dashbo
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧑‍🍳 Meat Up — Staff & Tips
+**Scheduling and tip sheets for a two-store butcher shop — live in production.**  
+Shift scheduling with deny-by-default eligibility and authorization rules, plus a tip engine that's *property-tested*: 1,000 randomized cases prove tip shares always sum to the pool, to the cent. 358 tests, automated off-site backups with a rehearsed restore runbook.
+
+`Node.js` `Express` `React` `TypeScript` `SQLite` `Tailwind`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛒 Meat Up — Online Ordering
+**Guest pickup ordering for the same shop — a contract-first build.** *(in development)*  
+Every feature traces to a numbered spec contract; **589 tests** where every guard was first demonstrated failing; CI with a real Postgres service and SHA-pinned actions. Deployed to staging; Square payments are the next milestone.
+
+`Node.js` `Express 5` `PostgreSQL` `React` `Vite` `Zod`
+
+</td>
+</tr>
 </table>
 
 ### Also built recently
 
-Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · staff scheduling + tip sheets for a local food business · custom client sites, live on Vercel
+Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · custom client sites, live on Vercel
 
 <br/>
 
