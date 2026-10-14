@@ -25,13 +25,13 @@
 ## 👋 The 10-second version
 
 > I'm a full-stack developer who ships **production software that runs a business every day.**
-> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator.
+> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator. On the side, I built **a complete IPTV player for Android TV / Fire TV** from scratch.
 >
 > **Node.js · React · React Native · SQL · Python** — and I bring AI in where it actually earns its place.
 
 <div align="center">
 
-![Production](https://img.shields.io/badge/Apps_in_Production-6-0e75b6?style=for-the-badge)
+![Production](https://img.shields.io/badge/Apps_in_Production-7-0e75b6?style=for-the-badge)
 ![SaaS](https://img.shields.io/badge/Replaced-Paid_SaaS-2ea44f?style=for-the-badge)
 ![Daily](https://img.shields.io/badge/Used-Daily-blueviolet?style=for-the-badge)
 ![Bilingual](https://img.shields.io/badge/Bilingual-EN%2FES-orange?style=for-the-badge)
@@ -47,11 +47,23 @@
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+
+### 📺 ShoushaTV
+**A complete IPTV player for Android TV / Fire TV — built from scratch, end to end.**  
+Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping and numeric entry, a full XMLTV guide with **catch-up replay** of already-aired shows, movies & series with **Netflix-style Skip Intro / Next Episode that learns each show**, audio & subtitle track selection, per-episode watch history, and a **self-healing stream-recovery state machine** (never a silent black screen). Runs on Fire TV, Android TV, iPhone (VLC), and web. **77 unit tests.**
+
+`React Native (Expo)` `TypeScript` `react-native-tvos` `ExoPlayer` `TanStack Query` `MMKV`
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🥩 ShoushaBox
 **Replaced a paper workflow that ran the cut floor.**  
 Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
+Public code: [warehouse-ui](https://github.com/shousha401/warehouse-ui) · [warehouse-backend](https://github.com/shousha401/warehouse-backend)
 
 `Node.js` `React` `Vite` `SQLite` `MSSQL`
 
