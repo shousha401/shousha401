@@ -24,14 +24,14 @@
 
 ## 👋 The 10-second version
 
-> I'm a full-stack developer who ships **production software that runs a business every day.**
-> I've built and deployed **internal apps that replaced paid SaaS, retired paper workflows, and are used daily** by the floor and ownership of a wholesale food distributor — from a warehouse production board to an AI-powered document translator. On the side, I built **a complete IPTV player for Android TV / Fire TV** from scratch.
+> I'm a full-stack developer who ships **production software that runs businesses every day.**
+> At a wholesale food distributor I've built and operate **15+ internal systems** — a field-sales platform, a full CMMS that replaced a paid SaaS, warehouse boards, food-safety compliance tools — plus **live client websites** (including a government agency's public site) and **a complete IPTV player for Android TV / Fire TV** built from scratch.
 >
-> **Node.js · React · React Native · SQL · Python** — and I bring AI in where it actually earns its place.
+> **Node.js · React · React Native · TypeScript · Python · SQL** — and I bring AI in where it actually earns its place.
 
 <div align="center">
 
-![Production](https://img.shields.io/badge/Apps_in_Production-7-0e75b6?style=for-the-badge)
+![Production](https://img.shields.io/badge/Apps_in_Production-15%2B-0e75b6?style=for-the-badge)
 ![SaaS](https://img.shields.io/badge/Replaced-Paid_SaaS-2ea44f?style=for-the-badge)
 ![Daily](https://img.shields.io/badge/Used-Daily-blueviolet?style=for-the-badge)
 ![Bilingual](https://img.shields.io/badge/Bilingual-EN%2FES-orange?style=for-the-badge)
@@ -61,6 +61,26 @@ Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zap
 <tr>
 <td width="50%" valign="top">
 
+### 🧭 Breadcrumb — Field Sales Platform
+**The sales team's command center: ~15 reps, 19 territories, ~10,000 accounts.**  
+Live territory map, team feed, offline-first check-ins, visit plans, cadence tracking, and win-back / new-opening leads mined from licence data. **1,196 backend + 379 frontend tests**, plus a 225-screenshot reachability sweep across five device profiles.
+
+`Node.js` `Express` `React`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔧 CMP+ — In-house CMMS
+**Replaced the ManagerPlus maintenance SaaS — and the company owns it now.**  
+Work orders with a one-decision-per-screen wizard, parts inventory on an **append-only stock ledger** (moving-average cost, integer cents), purchasing & receiving, nightly auto-generated preventive maintenance, per-building role scoping, CSV importers — and unit tests on every money path.
+
+`Node.js` `Express` `React` `Vite` `SQLite`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🥩 ShoushaBox
 **Replaced a paper workflow that ran the cut floor.**  
 Pulls live orders from the ERP, assigns cuts to the team, and tracks start/end times on warehouse TVs — now the floor's daily source of truth. Bilingual EN/ES with Sato label printing.
@@ -71,22 +91,22 @@ Public code: [warehouse-ui](https://github.com/shousha401/warehouse-ui) · [ware
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ Internal IT Platform
-**One app that replaced a paid SaaS contract — and kept growing.**  
-Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, QR asset inventory, and usage analytics.
+### 🛰️ Shousha-Hub — Fleet Launchpad & Watchtower
+**One front door for every internal tool — and the monitor that watches them all.**  
+Live status probes on the whole fleet, a read-only ops dashboard, incident emails with recovery notices, and an ideas/help inbox for the floor — fronted by a **Three.js 3D scene** where tiny agents work each tool's *real* health data.
 
-`Node.js` `Express` `SQLite` `SNMP` `OpenAI`
+`Node.js` `Express` `Three.js` `PM2`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📊 Production Scheduling Report
-**Stops shortfalls before they happen.**  
-Reads live inventory + orders to tell the team *what to make and how much*, days ahead — factoring FIFO, partial lots, shelf-life, and order-risk. Checked daily by production and ownership.
+### 🖥️ Internal IT Platform
+**One app that replaced a paid SaaS contract — and kept growing.**  
+Began as a printer/toner SNMP monitor (45 printers, email alerts, dashboards) and became an all-in-one: helpdesk ticketing, an **AI-powered EN→ES PDF translator**, QR asset inventory, and usage analytics.
 
-`Node.js` `React` `SQLite`
+`Node.js` `Express` `SQLite` `SNMP` `OpenAI`
 
 </td>
 <td width="50%" valign="top">
@@ -96,6 +116,57 @@ Reads live inventory + orders to tell the team *what to make and how much*, days
 Barcode capture, offline-first sync, route-conflict prevention, a manager dashboard, and an automated 4 AM ERP sync.
 
 `React Native (Expo)` `Node.js` `PostgreSQL` `Azure`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🌐 Client Work — live on the internet
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏛️ Kings County Water District
+**The live public website of a California water agency.**  
+Full redesign of an early-2000s site: responsive, bilingual EN/ES, accessibility-minded (WCAG 2.1), with a 2FA staff portal so the district publishes agendas, minutes, and board updates themselves — no developer needed.
+🔗 [kingscwd.org](https://kingscwd.org)
+
+`React 19` `TypeScript` `Vite` `Tailwind` `Supabase`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧳 Pirata Goods
+**Full e-commerce for a Cairo handcrafted-leather brand.**  
+Storefront, cart, cash-on-delivery checkout with server-side price validation, and a complete admin CMS: drag-and-drop product photos with on-page compression, order workflow, magic-link auth with TOTP 2FA.
+🔗 [pirata-goods-site.vercel.app](https://pirata-goods-site.vercel.app)
+
+`Next.js 15` `TypeScript` `PostgreSQL (Neon)` `Drizzle`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🪡 Refined Stitchery
+**Boutique storefront with live Stripe checkout for a UK sewing business.**  
+Owner-managed catalogue, photos, and content; paid orders recorded through deduplicated Stripe webhooks; GDPR-conscious cookieless analytics.
+🔗 [stitchery-website.vercel.app](https://stitchery-website.vercel.app)
+
+`React 19` `TypeScript` `Stripe` `Supabase` `Vercel`
+
+</td>
+<td width="50%" valign="top">
+
+### 🥎 Bullard Knights Softball
+**Static-fast team site for a Fresno high-school program.**  
+Near-zero JavaScript, calendar downloads per event, and automated QA sweeps: layout overflow at 14 viewports and WCAG contrast in both themes, enforced by scripts.
+🔗 [bullardsoftball.com](https://bullardsoftball.com)
+
+`Astro` `TypeScript` `Tailwind`
 
 </td>
 </tr>
@@ -121,9 +192,9 @@ Every feature traces to a numbered spec contract; **589 tests** where every guar
 </tr>
 </table>
 
-### Also built recently
+### Also running in production
 
-Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · custom client sites, live on Vercel
+**Ask JD** — on-prem LLM + RAG proof-of-concept over the company ERP/WMS (`FastAPI` `Ollama` `Postgres`) · digital food-safety receiving log with a rule engine, review queue, and audit-ready PDFs · USDA-compliance recipe builder · production scheduling with FIFO-violation detection · a fewest-pallet blend solver · a GS1-128 label tool whose hand-written barcode encoder was verified against 61,000+ payloads · supplier compliance tracker · shelf-life QA tracking · break-compliance monitor · a WebRTC video-calling app with CallKit
 
 <br/>
 
@@ -139,21 +210,25 @@ Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · custom client
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 #### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 #### AI / Tools
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 #### Infra & DevOps
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -175,7 +250,7 @@ Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · custom client
 
 ## 🚀 Currently Exploring
 
-Bringing AI into line-of-business software — where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** The EN→ES translator in my IT platform is one example: AI doing real, boring, useful work.
+Bringing AI into line-of-business software — where LLMs genuinely help in operations, inventory, and customer-facing tools, **and where they don't.** Two live examples: the EN→ES translator in my IT platform (AI doing real, boring, useful work), and **Ask JD** — an on-prem LLM + RAG proof-of-concept that answers natural-language questions against the company's ERP and warehouse data, read-only, with a tiered PII model.
 
 The interesting question isn't *"can we add AI to this?"* — it's *"should we?"*
 
