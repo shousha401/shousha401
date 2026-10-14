@@ -156,7 +156,7 @@ Storefront, cart, cash-on-delivery checkout with server-side price validation, a
 ### 🪡 Refined Stitchery
 **Boutique storefront with live Stripe checkout for a UK sewing business.**  
 Owner-managed catalogue, photos, and content; paid orders recorded through deduplicated Stripe webhooks; GDPR-conscious cookieless analytics.
-🔗 [stitchery-website.vercel.app](https://stitchery-website.vercel.app)
+🔗 [refinedstitchery.co.uk](https://www.refinedstitchery.co.uk/)
 
 `React 19` `TypeScript` `Stripe` `Supabase` `Vercel`
 
