@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="360" viewBox="0 0 1012 360" role="img" aria-label="Animated diagram: data flowing from the ERP and WMS through Eslam's systems to the floor, drivers and customers">
+  <!-- The fleet, as a living diagram. Packets (dots) ride the wires on
+       animateMotion loops; node borders breathe. SMIL only — no JS. -->
+  <defs>
+    <style>
+      .lbl  { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: 13.5px; fill: #c9d1d9; font-weight: bold; }
+      .sublbl { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: 10.5px; fill: #8b949e; }
+      .title { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: 13px; fill: #8b949e; }
+      .wire { stroke: #30363d; stroke-width: 1.6; fill: none; }
+      .node { fill: #161b22; stroke-width: 1.6; rx: 8; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1010" height="358" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="506" y="30" text-anchor="middle" class="title">⚙ one company's data, moving through systems I built — all day, every day</text>
+
+  <!-- ====== wires (drawn under nodes) ====== -->
+  <!-- sources to apps -->
+  <path id="w1" class="wire" d="M 170 105 C 240 105, 250 85,  318 85"/>
+  <path id="w2" class="wire" d="M 170 115 C 240 115, 250 150, 318 150"/>
+  <path id="w3" class="wire" d="M 170 245 C 240 245, 250 215, 318 215"/>
+  <path id="w4" class="wire" d="M 170 255 C 240 255, 250 280, 318 280"/>
+  <!-- apps to outputs -->
+  <path id="w5" class="wire" d="M 530 85  C 610 85,  620 95,  700 95"/>
+  <path id="w6" class="wire" d="M 530 150 C 610 150, 620 160, 700 160"/>
+  <path id="w7" class="wire" d="M 530 215 C 610 215, 620 225, 700 225"/>
+  <path id="w8" class="wire" d="M 530 280 C 610 280, 620 290, 700 290"/>
+
+  <!-- ====== packets riding the wires ====== -->
+  <circle r="4" fill="#58a6ff"><animateMotion dur="3.2s" repeatCount="indefinite" begin="0s"><mpath href="#w1"/></animateMotion></circle>
+  <circle r="4" fill="#58a6ff"><animateMotion dur="3.2s" repeatCount="indefinite" begin="-1.6s"><mpath href="#w1"/></animateMotion></circle>
+  <circle r="4" fill="#58a6ff"><animateMotion dur="3.6s" repeatCount="indefinite" begin="-0.8s"><mpath href="#w2"/></animateMotion></circle>
+  <circle r="4" fill="#79c0ff"><animateMotion dur="3.4s" repeatCount="indefinite" begin="-0.4s"><mpath href="#w3"/></animateMotion></circle>
+  <circle r="4" fill="#79c0ff"><animateMotion dur="3.8s" repeatCount="indefinite" begin="-2.1s"><mpath href="#w4"/></animateMotion></circle>
+  <circle r="4" fill="#3fb950"><animateMotion dur="3.3s" repeatCount="indefinite" begin="-0.9s"><mpath href="#w5"/></animateMotion></circle>
+  <circle r="4" fill="#3fb950"><animateMotion dur="3.7s" repeatCount="indefinite" begin="-2.4s"><mpath href="#w6"/></animateMotion></circle>
+  <circle r="4" fill="#3fb950"><animateMotion dur="3.5s" repeatCount="indefinite" begin="-1.2s"><mpath href="#w7"/></animateMotion></circle>
+  <circle r="4" fill="#3fb950"><animateMotion dur="3.9s" repeatCount="indefinite" begin="-3.0s"><mpath href="#w8"/></animateMotion></circle>
+
+  <!-- ====== source nodes ====== -->
+  <g>
+    <rect x="30" y="80" width="140" height="56" rx="8" fill="#161b22" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="100" y="104" text-anchor="middle" class="lbl">Canopy ERP</text>
+    <text x="100" y="122" text-anchor="middle" class="sublbl">orders · customers</text>
+  </g>
+  <g>
+    <rect x="30" y="220" width="140" height="56" rx="8" fill="#161b22" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="-1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="100" y="244" text-anchor="middle" class="lbl">Swarmbox WMS</text>
+    <text x="100" y="262" text-anchor="middle" class="sublbl">inventory · lots</text>
+  </g>
+
+  <!-- ====== my systems (center) ====== -->
+  <g>
+    <rect x="318" y="60" width="212" height="50" rx="8" fill="#161b22" stroke="#79c0ff">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="424" y="81" text-anchor="middle" class="lbl">🧭 Breadcrumb</text>
+    <text x="424" y="98" text-anchor="middle" class="sublbl">field sales · 19 territories</text>
+  </g>
+  <g>
+    <rect x="318" y="125" width="212" height="50" rx="8" fill="#161b22" stroke="#79c0ff">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.6s" begin="-0.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="424" y="146" text-anchor="middle" class="lbl">🥩 ShoushaBox</text>
+    <text x="424" y="163" text-anchor="middle" class="sublbl">cut-floor production board</text>
+  </g>
+  <g>
+    <rect x="318" y="190" width="212" height="50" rx="8" fill="#161b22" stroke="#79c0ff">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.6s" begin="-1.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="424" y="211" text-anchor="middle" class="lbl">📊 Scheduling + FIFO</text>
+    <text x="424" y="228" text-anchor="middle" class="sublbl">what to make · what's stuck</text>
+  </g>
+  <g>
+    <rect x="318" y="255" width="212" height="50" rx="8" fill="#161b22" stroke="#79c0ff">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.6s" begin="-1.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="424" y="276" text-anchor="middle" class="lbl">🔧 CMP+ · 🧾 QA logs</text>
+    <text x="424" y="293" text-anchor="middle" class="sublbl">maintenance · food safety</text>
+  </g>
+
+  <!-- watchtower, above the column, watching -->
+  <g>
+    <circle cx="424" cy="43" r="4" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="436" y="47" class="sublbl">🛰️ watchtower: all systems probed every 60s</text>
+  </g>
+
+  <!-- ====== output nodes ====== -->
+  <g>
+    <rect x="700" y="70" width="282" height="50" rx="8" fill="#161b22" stroke="#3fb950">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="841" y="91" text-anchor="middle" class="lbl">📣 Sales reps in the field</text>
+    <text x="841" y="108" text-anchor="middle" class="sublbl">~10,000 accounts · live team feed</text>
+  </g>
+  <g>
+    <rect x="700" y="135" width="282" height="50" rx="8" fill="#161b22" stroke="#3fb950">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="2.8s" begin="-0.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="841" y="156" text-anchor="middle" class="lbl">📺 Warehouse TVs</text>
+    <text x="841" y="173" text-anchor="middle" class="sublbl">the floor's daily source of truth</text>
+  </g>
+  <g>
+    <rect x="700" y="200" width="282" height="50" rx="8" fill="#161b22" stroke="#3fb950">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="841" y="221" text-anchor="middle" class="lbl">🏭 Production &amp; QA teams</text>
+    <text x="841" y="238" text-anchor="middle" class="sublbl">batch sheets · audit-ready PDFs</text>
+  </g>
+  <g>
+    <rect x="700" y="265" width="282" height="50" rx="8" fill="#161b22" stroke="#3fb950">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="2.8s" begin="-2.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="841" y="286" text-anchor="middle" class="lbl">🚚 Drivers &amp; customers</text>
+    <text x="841" y="303" text-anchor="middle" class="sublbl">deliveries verified · orders online</text>
+  </g>
+
+  <text x="506" y="344" text-anchor="middle" class="sublbl">every box is an app I designed, built, deployed, and operate</text>
+</svg>

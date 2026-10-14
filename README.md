@@ -1,12 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/shousha401">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Eslam%20Shousha&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Open%20to%20Opportunities&descAlignY=58&descSize=18" />
-</a>
-
-<a href="https://github.com/shousha401">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%C2%B7+Node.js+%C2%B7+React+%C2%B7+SQL;I+ship+production+software%2C+not+side+projects;Apps+that+run+a+business+every+day;Open+to+new+opportunities" />
-</a>
+<img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/boot-header.svg" alt="Boot sequence: ESLAM SHOUSHA — full-stack developer, systems that run businesses every day" />
 
 <br/><br/>
 
@@ -120,6 +114,14 @@ Barcode capture, offline-first sync, route-conflict prevention, a manager dashbo
 </td>
 </tr>
 </table>
+
+<br/>
+
+## ⚙️ How it all connects
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/systems-flow.svg" alt="Animated diagram: data flows from the ERP and WMS through my apps to sales reps, warehouse TVs, production teams, drivers and customers" />
+</div>
 
 <br/>
 

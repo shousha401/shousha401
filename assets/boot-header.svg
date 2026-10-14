@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="280" viewBox="0 0 1012 280" role="img" aria-label="Boot sequence: Eslam Shousha, full-stack developer">
+  <!-- Hand-built boot-sequence header. SMIL only — GitHub READMEs allow no
+       JavaScript, so everything here animates natively inside the <img>. -->
+  <defs>
+    <style>
+      .bios { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: 13px; fill: #3fb950; }
+      .dim  { fill: #8b949e; }
+      .name { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 58px; font-weight: 800; letter-spacing: 2px; }
+      .sub  { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: 16px; fill: #8b949e; letter-spacing: 1px; }
+    </style>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="55%" stop-color="#79c0ff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1010" height="278" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1008" height="276" rx="11" fill="url(#grid)"/>
+
+  <!-- BIOS power-on check, top-left -->
+  <g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.15s" fill="freeze"/>
+      <text x="26" y="36" class="bios">SHOUSHA BIOS v5.0 — power on self test</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.15s" fill="freeze"/>
+      <text x="26" y="58" class="bios"><tspan class="dim">apps in production .......</tspan> 15+  OK</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.15s" fill="freeze"/>
+      <text x="26" y="80" class="bios"><tspan class="dim">tests across the fleet ...</tspan> 2,500+  PASS</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.15s" fill="freeze"/>
+      <text x="26" y="102" class="bios"><tspan class="dim">live client sites ........</tspan> 4  ONLINE</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.15s" fill="freeze"/>
+      <text x="26" y="124" class="bios">boot: ShoushaOS … <tspan fill="#79c0ff">ready</tspan></text></g>
+    <!-- the check log dims once the name ignites -->
+    <animate attributeName="opacity" from="1" to="0.35" begin="3.1s" dur="0.6s" fill="freeze"/>
+  </g>
+
+  <!-- the name -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.8s" fill="freeze"/>
+    <text x="506" y="196" text-anchor="middle" class="name" fill="url(#nameGrad)">ESLAM SHOUSHA</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze"/>
+    <text x="506" y="232" text-anchor="middle" class="sub">full-stack developer · systems that run businesses every day</text>
+  </g>
+  <!-- blinking cursor after the subtitle -->
+  <rect x="872" y="219" width="9" height="15" fill="#3fb950" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.49;0.5;0.75;0.76;1" dur="1.2s" begin="4.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- one scanline sweep as the name appears -->
+  <rect x="2" y="-60" width="1008" height="60" fill="url(#scan)">
+    <animate attributeName="y" from="-60" to="280" begin="3.0s" dur="1.1s" fill="freeze"/>
+  </rect>
+</svg>
