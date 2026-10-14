@@ -45,10 +45,10 @@
 
 ### 📺 ShoushaTV
 **A complete IPTV player for Android TV / Fire TV — built from scratch, end to end.**  
-Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping and numeric entry, a full XMLTV guide with **catch-up replay** of already-aired shows, movies & series with **Netflix-style Skip Intro / Next Episode that learns each show**, audio & subtitle track selection, per-episode watch history, and a **self-healing stream-recovery state machine** (never a silent black screen). Runs on Fire TV, Android TV, iPhone (VLC), and web. **77 unit tests.**
+Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping and numeric entry, a full XMLTV guide with **catch-up replay** of already-aired shows, movies & series with **Netflix-style Skip Intro / Next Episode that learns each show**, per-episode watch history, and a **self-healing stream-recovery state machine** (never a silent black screen). **Audio & subtitle selection on every screen** — the player swaps its engine per platform (**ExoPlayer** on TV, **libVLC** on iPhone, because AVPlayer can't decode most IPTV formats) behind one shared surface API. Runs on Fire TV, Android TV, iPhone, and web. **77 unit tests.**
 📦 Public downloads: [shoushatv-releases](https://github.com/shousha401/shoushatv-releases)
 
-`React Native (Expo)` `TypeScript` `react-native-tvos` `ExoPlayer` `TanStack Query` `MMKV`
+`React Native (Expo)` `TypeScript` `react-native-tvos` `ExoPlayer` `libVLC` `TanStack Query` `MMKV`
 
 </td>
 </tr>
