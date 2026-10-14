@@ -52,6 +52,7 @@
 ### 📺 ShoushaTV
 **A complete IPTV player for Android TV / Fire TV — built from scratch, end to end.**  
 Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping and numeric entry, a full XMLTV guide with **catch-up replay** of already-aired shows, movies & series with **Netflix-style Skip Intro / Next Episode that learns each show**, audio & subtitle track selection, per-episode watch history, and a **self-healing stream-recovery state machine** (never a silent black screen). Runs on Fire TV, Android TV, iPhone (VLC), and web. **77 unit tests.**
+📦 Public downloads: [shoushatv-releases](https://github.com/shousha401/shoushatv-releases)
 
 `React Native (Expo)` `TypeScript` `react-native-tvos` `ExoPlayer` `TanStack Query` `MMKV`
 
@@ -100,36 +101,9 @@ Barcode capture, offline-first sync, route-conflict prevention, a manager dashbo
 </tr>
 </table>
 
-### More tools I've shipped
+### Also built recently
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### ⚗️ Formulation Batcher
-Scales recipes/blends and computes per-ingredient quantities for each production batch.
-
-`Node.js` `Express`
-
-</td>
-<td width="33%" valign="top">
-
-### 💲 Product Value Tool
-Instant last-price lookup across two pricing tiers, so sales & purchasing always pull the latest number.
-
-`Node.js` `Express` `SQLite`
-
-</td>
-<td width="33%" valign="top">
-
-### 🌐 Custom WordPress Theme
-Brand redesign built from scratch — sticky nav, video hero, hover cards, fully responsive to spec.
-
-`PHP` `WordPress` `JS` `CSS`
-
-</td>
-</tr>
-</table>
+Supplier compliance-document tracker (`FastAPI` + `PostgreSQL`) · staff scheduling + tip sheets for a local food business · custom client sites, live on Vercel
 
 <br/>
 
@@ -141,6 +115,7 @@ Brand redesign built from scratch — sticky nav, video hero, hover cards, fully
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
