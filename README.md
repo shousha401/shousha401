@@ -268,7 +268,7 @@ I'm open to full-stack and software engineering roles. The fastest way to reach 
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shousha401/shousha401/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/fleet-console.svg" alt="animated fleet console: 15+ apps online, 2,500+ tests passing" />
 </div>
 
 <div align="center">
