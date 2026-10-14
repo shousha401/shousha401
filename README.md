@@ -144,7 +144,7 @@ Full redesign of an early-2000s site: responsive, bilingual EN/ES, accessibility
 ### 🧳 Pirata Goods
 **Full e-commerce for a Cairo handcrafted-leather brand.**  
 Storefront, cart, cash-on-delivery checkout with server-side price validation, and a complete admin CMS: drag-and-drop product photos with on-page compression, order workflow, magic-link auth with TOTP 2FA.
-🔗 [pirata-goods-site.vercel.app](https://pirata-goods-site.vercel.app)
+🔗 [piratagoods.com](https://piratagoods.com)
 
 `Next.js 15` `TypeScript` `PostgreSQL (Neon)` `Drizzle`
 
