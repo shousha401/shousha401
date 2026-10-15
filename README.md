@@ -19,7 +19,7 @@
 ## 👋 The 10-second version
 
 > I'm a full-stack developer who ships **production software that runs businesses every day.**
-> At a wholesale food distributor I've built and operate **15+ internal systems** — a field-sales platform, a full CMMS that replaced a paid SaaS, warehouse boards, food-safety compliance tools — plus **live client websites** (including a government agency's public site) and **a complete IPTV player for Android TV / Fire TV** built from scratch.
+> At a wholesale food distributor I've built and operate **15+ internal systems** — a field-sales platform, a full CMMS that replaced a paid SaaS, warehouse boards, food-safety compliance tools — plus **live client websites through my freelance studio, [LocalFix](https://localfix.now)** (including a government agency's public site), and **a complete IPTV player for Android TV / Fire TV** built from scratch.
 >
 > **Node.js · React · React Native · TypeScript · Python · SQL** — and I bring AI in where it actually earns its place.
 
@@ -127,7 +127,21 @@ Barcode capture, offline-first sync, route-conflict prevention, a manager dashbo
 
 ## 🌐 Client Work — live on the internet
 
+> Shipped under my freelance studio, **[LocalFix](https://localfix.now)** — web design, workflow automation, and AI chatbots for Central Valley businesses and beyond.
+
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### 🧰 LocalFix — the studio itself
+**My freelance practice, and its site is the demo reel.**  
+A raw-WebGL "gooey" shader hero (nine SDF metaballs, scroll-driven, written against Three.js directly — no react-three-fiber overhead), GSAP + Lenis scroll choreography, and a **custom Vite SSR prerender pipeline** that writes per-route SEO heads at build time instead of reaching for Next.js. Respects `prefers-reduced-motion` throughout.
+🔗 [localfix.now](https://localfix.now)
+
+`React 19` `TypeScript` `Three.js (WebGL)` `GSAP` `Vite SSR` `Tailwind`
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
