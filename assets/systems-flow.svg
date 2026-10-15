@@ -42,14 +42,14 @@
     <rect x="30" y="80" width="140" height="56" rx="8" fill="#161b22" stroke="#58a6ff">
       <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
     </rect>
-    <text x="100" y="104" text-anchor="middle" class="lbl">Canopy ERP</text>
+    <text x="100" y="104" text-anchor="middle" class="lbl">Company ERP</text>
     <text x="100" y="122" text-anchor="middle" class="sublbl">orders · customers</text>
   </g>
   <g>
     <rect x="30" y="220" width="140" height="56" rx="8" fill="#161b22" stroke="#58a6ff">
       <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="-1.5s" repeatCount="indefinite"/>
     </rect>
-    <text x="100" y="244" text-anchor="middle" class="lbl">Swarmbox WMS</text>
+    <text x="100" y="244" text-anchor="middle" class="lbl">Warehouse WMS</text>
     <text x="100" y="262" text-anchor="middle" class="sublbl">inventory · lots</text>
   </g>
 
