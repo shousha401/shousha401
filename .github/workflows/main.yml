@@ -25,6 +25,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: shousha401
 
+      # Hides the star/fork counters while they read 0 (the work is in private
+      # repos). Fail-soft: on anything unexpected it leaves the SVGs as generated.
+      - name: Tidy the generated graphs
+        run: node scripts/clean-contrib.mjs
+
       - name: Commit & push generated SVGs
         run: |
           git config user.name "github-actions[bot]"

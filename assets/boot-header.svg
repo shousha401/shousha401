@@ -35,7 +35,7 @@
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.15s" fill="freeze"/>
       <text x="26" y="80" class="bios"><tspan class="dim">tests across the fleet ...</tspan> 2,500+  PASS</text></g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.15s" fill="freeze"/>
-      <text x="26" y="102" class="bios"><tspan class="dim">live client sites ........</tspan> 4  ONLINE</text></g>
+      <text x="26" y="102" class="bios"><tspan class="dim">live client sites ........</tspan> 5  ONLINE</text></g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.15s" fill="freeze"/>
       <text x="26" y="124" class="bios">boot: ShoushaOS … <tspan fill="#79c0ff">ready</tspan></text></g>
     <!-- the check log dims once the name ignites -->
