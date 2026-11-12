@@ -19,13 +19,13 @@
 ## 👋 The 10-second version
 
 > I'm a full-stack developer who ships **production software that runs businesses every day.**
-> At a wholesale food distributor I've built and operate **15+ internal systems** — a field-sales platform, a full CMMS that replaced a paid SaaS, warehouse boards, food-safety compliance tools — plus **live client websites through my freelance studio, [LocalFix](https://localfix.now)** (including a government agency's public site), and **a complete IPTV player for Android TV / Fire TV** built from scratch.
+> At a wholesale food distributor I've built and operate **~20 internal systems** — a field-sales platform, a full CMMS that replaced a paid SaaS, warehouse boards, food-safety compliance tools — plus **live client websites through my freelance studio, [LocalFix](https://localfix.now)** (including a government agency's public site), and **a complete IPTV player for Android TV / Fire TV** built from scratch.
 >
 > **Node.js · React · React Native · TypeScript · Python · SQL** — and I bring AI in where it actually earns its place.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/stat-apps.svg" alt="15+ apps in production" />
+<img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/stat-apps.svg" alt="about 20 apps in production" />
 <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/stat-tests.svg" alt="2,500+ automated tests" />
 <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/stat-sites.svg" alt="5 live client sites" />
 <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/stat-saas.svg" alt="2 paid SaaS products replaced" />
@@ -45,7 +45,7 @@
 
 ### 📺 ShoushaTV
 **A complete IPTV player for Android TV / Fire TV — built from scratch, end to end.**  
-Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping and numeric entry, a full XMLTV guide with **catch-up replay** of already-aired shows, movies & series with **Netflix-style Skip Intro / Next Episode that learns each show**, per-episode watch history, and a **self-healing stream-recovery state machine** (never a silent black screen). **Audio & subtitle selection on every screen** — the player swaps its engine per platform (**ExoPlayer** on TV, **libVLC** on iPhone, because AVPlayer can't decode most IPTV formats) behind one shared surface API. Runs on Fire TV, Android TV, iPhone, and web. **77 unit tests.**
+Remote-only 10-foot UI on **Expo + react-native-tvos**: live TV with instant zapping, an XMLTV guide with **catch-up replay**, and **Skip Intro / Next Episode that learns each show**. A **self-healing stream-recovery state machine** means never a silent black screen, and the player swaps engines per platform (**ExoPlayer** on TV, **libVLC** on iPhone, where AVPlayer can't decode most IPTV streams) behind one surface API. Fire TV, Android TV, iPhone, and web. **77 unit tests.**
 📦 Public downloads: [shoushatv-releases](https://github.com/shousha401/shoushatv-releases)
 
 `React Native (Expo)` `TypeScript` `react-native-tvos` `ExoPlayer` `libVLC` `TanStack Query` `MMKV`
@@ -257,5 +257,5 @@ I'm open to full-stack and software engineering roles. The fastest way to reach 
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/fleet-console.svg" alt="animated fleet console: 15+ apps online, 2,500+ tests passing" />
+  <img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/fleet-console.svg" alt="animated fleet console: about 20 apps online, 2,500+ tests passing" />
 </div>

@@ -31,7 +31,7 @@
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.15s" fill="freeze"/>
       <text x="26" y="36" class="bios">SHOUSHA BIOS v5.0 — power on self test</text></g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.15s" fill="freeze"/>
-      <text x="26" y="58" class="bios"><tspan class="dim">apps in production .......</tspan> 15+  OK</text></g>
+      <text x="26" y="58" class="bios"><tspan class="dim">apps in production .......</tspan> ~20  OK</text></g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.15s" fill="freeze"/>
       <text x="26" y="80" class="bios"><tspan class="dim">tests across the fleet ...</tspan> 2,500+  PASS</text></g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.15s" fill="freeze"/>

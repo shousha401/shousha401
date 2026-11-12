@@ -25,7 +25,7 @@ const README = readFileSync(join(ROOT, 'README.md'), 'utf8');
 // Headline numbers. The first three also appear, hand-written, in
 // assets/boot-header.svg and assets/fleet-console.svg: change them together.
 const STATS = [
-  { file: 'stat-apps',     value: '15+',    label: 'apps in production', accent: '#58a6ff' },
+  { file: 'stat-apps',     value: '~20',    label: 'apps in production', accent: '#58a6ff' },
   { file: 'stat-tests',    value: '2,500+', label: 'automated tests',    accent: '#6cb6ff' },
   { file: 'stat-sites',    value: '5',      label: 'live client sites',  accent: '#79c0ff' },
   { file: 'stat-saas',     value: '2',      label: 'paid SaaS replaced', accent: '#56d364' },
