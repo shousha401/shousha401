@@ -133,17 +133,21 @@ Barcode capture, offline-first sync, route-conflict prevention, a manager dashbo
 <tr>
 <td colspan="2" valign="top">
 
+<a href="https://localfix.now"><img align="right" width="400" src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/shot-localfix.svg" alt="Screenshot of the LocalFix homepage" /></a>
+
 ### 🧰 LocalFix — the studio itself
 **My freelance practice, and its site is the demo reel.**  
-A raw-WebGL "gooey" shader hero (nine SDF metaballs, scroll-driven, written against Three.js directly — no react-three-fiber overhead), GSAP + Lenis scroll choreography, and a **custom Vite SSR prerender pipeline** that writes per-route SEO heads at build time instead of reaching for Next.js. Respects `prefers-reduced-motion` throughout.
+An editorial, type-led design with GSAP + Lenis scroll choreography, light and dark themes, and a **custom Vite SSR prerender pipeline** that writes per-route SEO heads at build time instead of reaching for Next.js. Respects `prefers-reduced-motion` throughout.
 🔗 [localfix.now](https://localfix.now)
 
-`React 19` `TypeScript` `Three.js (WebGL)` `GSAP` `Vite SSR` `Tailwind`
+`React 19` `TypeScript` `GSAP` `Vite SSR` `Tailwind`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+
+<a href="https://kingscwd.org"><img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/shot-kcwd.svg" alt="Screenshot of the Kings County Water District homepage" /></a>
 
 ### 🏛️ Kings County Water District
 **The live public website of a California water agency.**  
@@ -154,6 +158,8 @@ Full redesign of an early-2000s site: responsive, bilingual EN/ES, accessibility
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://piratagoods.com"><img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/shot-pirata.svg" alt="Screenshot of the Pirata Goods storefront" /></a>
 
 ### 🧳 Pirata Goods
 **Full e-commerce for a Cairo handcrafted-leather brand.**  
@@ -167,6 +173,8 @@ Storefront, cart, cash-on-delivery checkout with server-side price validation, a
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://www.refinedstitchery.co.uk/"><img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/shot-stitchery.svg" alt="Screenshot of the Refined Stitchery homepage" /></a>
+
 ### 🪡 Refined Stitchery
 **Boutique storefront with live Stripe checkout for a UK sewing business.**  
 Owner-managed catalogue, photos, and content; paid orders recorded through deduplicated Stripe webhooks; GDPR-conscious cookieless analytics.
@@ -176,6 +184,8 @@ Owner-managed catalogue, photos, and content; paid orders recorded through dedup
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://bullardsoftball.com"><img src="https://raw.githubusercontent.com/shousha401/shousha401/main/assets/shot-bullard.svg" alt="Screenshot of the Bullard Knights Softball homepage" /></a>
 
 ### 🥎 Bullard Knights Softball
 **Static-fast team site for a Fresno high-school program.**  
